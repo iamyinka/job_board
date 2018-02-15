@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Donegal+One|Signika+Negative');
+
+body {
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
+}
+
+/*.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix {
+  clear: both;
+}*/
+
+/*======  Logo & Navigation =======*/
+
+nav.navbar {
+  margin-bottom: 0;
+  font-family: 'Donegal One', serif;
+  font-size: .89em;
+}
+
+/*.navbar-brand img {
+  width: 8em;
+  line-height: 4em;
+}*/
+
+.navbar-nav > li > a {
+  line-height: 3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  /*border-left: 1px solid #ccc;*/
+}
+
+.navbar-nav > li:last-child > a {
+  border-right: 1px solid #ccc;
+}
+
+.navbar-nav:not(.navbar-right) > li > a {
+  border-left: 1px solid #ccc;
+}
+
+
+.dropdown-menu {
+  min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+  min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+  min-width: 600px;
+}
+.dropdown-menu li a {
+  padding: 5px 15px;
+  font-weight: 300;
+}
+.multi-column-dropdown {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  line-height: 1.428571429;
+  color: #333;
+  white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: #999;
+}
+
+/*====== Custom Buttons =======*/
+
+.btn-main {
+  background-color: #302828;
+  color: #fff;
+  transition: all .6s;
+}
+
+.btn-custom {
+  background-color: #89AB93;
+  color: #fff;
+}
+
+.btn-main:hover, .btn-main:focus {
+  color: #302828;
+  border: 1px solid #302828;
+  background-color: transparent;
+}
+
+.btn-custom:hover, .btn-custom:focus, .report a:hover, .report a:focus {
+  color: #fff;
+  background-color: rgba(137, 171, 147, .57);
+  text-decoration: none;
+}
+
+
+/*====== Main Area =======*/
+main {
+  padding: 0;
+  margin: 0;
+}
+
+/*Banners link 
+
+https://www.michaelpage.com.my/sites/michaelpage.com.my/files/16061_Asia_SEO_2017_Website_H1_Banner_MP_animation_v2_0.gif
+
+https://www.michaelpage.com.my/sites/michaelpage.com.my/files/16337_APAC_Job_Applicant_Confidence_Index_Nextgen_H1_Banner.v2_0.gif
+
+https://www.michaelpage.com.my/sites/michaelpage.com.my/files/16227_JoinPageGroup_Launch_Collaterals_Website_H1_Banner_MY_0.jpg
+
+*/
+
+.hero {
+  background: transparent url(https://www.michaelpage.com.my/sites/michaelpage.com.my/files/16061_Asia_SEO_2017_Website_H1_Banner_MP_animation_v2_0.gif) no-repeat 30% 70%;
+  min-height: 430px;
+  position: relative;
+}
+
+
+
+.hero-main {
+  position: relative;
+}
+
+.report {
+  background-color: rgba(171, 154, 154, .88);
+  width: 35%;
+  color: #fff;
+  min-width: 20em;
+  padding: 1em 1.5em;
+  position: absolute;
+  top: 3em;
+}
+
+.report a {
+  color: #fff;
+  padding: .5em;
+  background-color: #89AB93;
+}
+
+.search-area {
+  position: absolute;
+  top: 15em;
+  background-color: rgba(10, 10, 10, .78);
+  padding: 1em 1em 1em 3.5em;
+  /*left: 25%;*/
+  width: 100%;
+  border-radius: 15px 5px 15px 5px;
+  /*width: 100%;*/
+}
+
+
+/*====== Sections =======*/
+
+section:not(.categories) {
+  padding: 3em 0;
+  background-color: #e1dbdb;
+  background-image: url("https://www.transparenttextures.com/patterns/black-mamba.png");
+}
+
+.section-title {
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+.section-title span {
+  border: 3px solid #89AB93;
+  display: block;
+  width: 5em;
+  margin: 0 auto;
+  border-radius: 5px 2px 5px 2px;
+}
+
+
+/*====== Categories Area =======*/
+
+.categories {
+  margin-top: -1.4em;
+}
+
+.categories .nav-tabs {
+  margin-bottom: 1em;
+}
+
+.categories .nav-tabs>li >a, .categories .nav-tabs>li.active>a, .categories .nav-tabs>li.active>a:focus, .categories .nav-tabs>li.active>a:hover {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.categories .nav-tabs>li.active>a, .categories .nav-tabs>li.active>a:focus, .categories .nav-tabs>li.active>a:hover {
+  background-color: #89AB93;
+  color: #fff;
+}
+
+.categories .nav-tabs>li >a {
+  background-color: #fff;
+  color: #89AB93;
+}
+
+.categories .tab-pane p a {
+  color: #302828;
+}
+
+.categories .tab-pane p a span {
+  color: #567860;
+}
+
+
+/*====== Employers Section =======*/
+
+.employer-title {
+  text-transform: capitalize;
+  transform: rotate(-1.5deg);
+  margin-bottom: 2em;
+}
+
+.employer-title span {
+  border: 3px solid #89AB93;
+  display: block;
+  width: 5em;
+  margin: 0 auto;
+  border-radius: 5px 2px 5px 2px;
+}
+
+.employer-items {
+  background-color: #F8F8F8;
+  text-align: center;
+  padding-bottom: 2em;
+  box-shadow: 0 5px 3px 2px #444;
+}
+
+.employer-items img {
+  max-width: 100%;
+  margin-bottom: 2em;
+  transition: all .6s;
+}
+
+.employer-items:hover {
+  cursor: pointer;
+}
+
+.employer-items:hover img {
+  transform: scale(1.05);
+  cursor: pointer !important;
+}
+
+
+/*====== Featured Jobs =======*/
+
+section.featured-jobs {
+  background: #fff !important;
+}
+
+section.featured-jobs .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+section.featured-jobs .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+section.featured-jobs .MultiCarousel .MultiCarousel-inner .item { float: left;}
+section.featured-jobs .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+section.featured-jobs .MultiCarousel .leftLst, section.featured-jobs .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+.MultiCarousel .leftLst { left:0; }
+section.featured-jobs .MultiCarousel .rightLst { right:0; }
+
+section.featured-jobs .MultiCarousel .leftLst.over, section.featured-jobs .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+
+
+/*====== Media Queries =======*/
+
+@media screen and (max-width: 1199px) {
+  .categories .nav-tabs>li >a, .categories .nav-tabs>li.active>a, .categories .nav-tabs>li.active>a:focus, .categories .nav-tabs>li.active>a:hover {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+
+@media screen and (max-width: 1160px) {
+  .navbar-brand img {
+    width: 8em;
+    margin-top: .5em;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .navbar-brand img {
+    width: 5em;
+    margin-top: .7em;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .categories .nav-tabs>li >a, .categories .nav-tabs>li.active>a, .categories .nav-tabs>li.active>a:focus, .categories .nav-tabs>li.active>a:hover {
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .navbar-nav > li > a {
+    line-height: 3em;
+    padding-left: 1em;
+    padding-right: 1em;  
+  }
+}
+
+@media screen and (max-width: 876px) {
+  .navbar-nav > li > a {
+    line-height: 3em;
+    padding-left: .5em;
+    padding-right: .5em;  
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .navbar-nav > li > a {
+    line-height: 3em;
+    padding-left: .3em;
+    padding-right: .3em;  
+  }
+}
+ 
+@media (max-width: 767px) {
+  .dropdown-menu.multi-column {
+    min-width: 240px !important;
+    overflow-x: hidden;
+  }
+
+  .navbar-brand img {
+    width: 8em;
+    margin-top: 0;
+  }
+
+  .search-area {
+    width: 90%;
+  }
+
+  .search-area select {
+    margin-bottom: 5px;
+  }
+
+  .categories {
+    display: none;
+  }
+}
+
+
+
