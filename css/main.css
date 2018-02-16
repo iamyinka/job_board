@@ -348,6 +348,10 @@ section.featured-jobs .MultiCarousel .leftLst.over, section.featured-jobs .Multi
   .categories {
     display: none;
   }
+
+  .employer-items {
+    margin-bottom: 3em;
+  }
 }
 
 
