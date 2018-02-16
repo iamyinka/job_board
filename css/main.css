@@ -270,6 +270,35 @@ section.featured-jobs .MultiCarousel .rightLst { right:0; }
 section.featured-jobs .MultiCarousel .leftLst.over, section.featured-jobs .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
 
 
+/*====== Latest Blogs =======*/
+
+.blog-item {
+  position: relative;
+  margin-bottom: 3em !important;
+}
+
+.blog-item img {
+  max-width: 100%;
+}
+
+.blog-item p {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  /*right: .8em;*/
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  background-color: rgba(137, 171, 147, .67);
+  padding: 1em 1em;
+  text-align: center;
+  transition: all .6s;
+}
+
+.blog-item:hover p {
+  padding: 2em 1em;
+}
+
 
 /*====== Media Queries =======*/
 
@@ -351,6 +380,10 @@ section.featured-jobs .MultiCarousel .leftLst.over, section.featured-jobs .Multi
 
   .employer-items {
     margin-bottom: 3em;
+  }
+
+  .blog-item img {
+    width: 100%;
   }
 }
 

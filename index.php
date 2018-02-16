@@ -508,6 +508,116 @@
 			</div>
 		</section>
 
+		<section class="latest-blogs">
+			<div class="container">
+				<div class="section-title">
+						<h2 class="text-center">Latest Advice</h2>
+						<span></span>
+					</div>
+				<div class="row">
+					<div class="col-sm-12 col-xs-12">
+						<div class="col-sm-4 col-xs-12">
+							<div class="blog-item">
+								<a href="#">
+									<img src="https://www.michaelpage.com.my/sites/michaelpage.com.my/files/styles/image_347x280/public/15667_7_reasons_why_employees_lose_motivation_BL.jpg?itok=FZ0bN4oN" alt="7 reasons why employees lose motivation" title="7 reasons why employees lose motivation">
+								
+									<p> 7 reasons why employees lose motivation </p>
+								</a>
+								
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<div class="blog-item">
+								<a href="#">
+									<img src="https://www.michaelpage.com.my/sites/michaelpage.com.my/files/styles/image_347x280/public/15667_02_5_mistakes_not_to_make_in_an_interview_BL.jpg?itok=YSCAruOJ" alt="5 interview mistakes you should never make" title="5 interview mistakes you should never make">
+								
+									<p> 5 interview mistakes you should never make </p>
+								</a>
+								
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<div class="blog-item">
+								<a href="#">
+									<img src="https://www.michaelpage.com.my/sites/michaelpage.com.my/files/styles/image_347x280/public/15667_7_reasons_why_employees_lose_motivation_BL.jpg?itok=FZ0bN4oN" alt="Future of finance: Five factors changing FP &amp; A" title="Future of finance: Five factors changing FP &amp; A">
+								
+									<p> Future of finance: Five factors changing FP &amp; A </p>
+								</a>
+								
+							</div>
+						</div>
+
+
+						<div class="col-sm-4 col-xs-12">
+							<div class="blog-item">
+								<a href="#">
+									<img src="https://www.michaelpage.com.my/sites/michaelpage.com.my/files/styles/image_347x280/public/16337_APAC_Job_Applicant_Confidence_Index_Blog_Image.jpg?itok=Jry_2Ghp" alt="6 Ways Our New Job Confidence Tool Can Help Drive Your Hiring..." title="6 Ways Our New Job Confidence Tool Can Help Drive Your Hiring...">
+								
+									<p> 6 Ways Our New Job Confidence Tool Can Help Drive Your Hiring... </p>
+								</a>
+								
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<div class="blog-item">
+								<a href="#">
+									<img src="https://www.michaelpage.com.my/sites/michaelpage.com.my/files/styles/image_347x280/public/three%20keys%20to%20accelerating%20your%20high%20potentials_BL.jpg?itok=LsCV9wDv" alt="Three keys to accelerating your high potentials:  An interview..." title="Three keys to accelerating your high potentials:  An interview...">
+								
+									<p> Three keys to accelerating your high potentials:  An interview... </p>
+								</a>
+								
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<div class="blog-item">
+								<a href="#">
+									<img src="https://www.michaelpage.com.my/sites/michaelpage.com.my/files/styles/image_347x280/public/Reexaming_the_links_among_career_leadership_BL.jpg?itok=wCS2F-z0" alt="Life and business lessons I've learnt after 20 years of work: An..." title="Life and business lessons I've learnt after 20 years of work: An...">
+								
+									<p> Life and business lessons I've learnt after 20 years of work: An... </p>
+								</a>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+<!-- 
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="blog-item">
+							<a href="#">
+								<img src="https://www.michaelpage.com.my/sites/michaelpage.com.my/files/styles/image_347x280/public/16337_APAC_Job_Applicant_Confidence_Index_Blog_Image.jpg?itok=Jry_2Ghp" alt="6 Ways Our New Job Confidence Tool Can Help Drive Your Hiring..." title="6 Ways Our New Job Confidence Tool Can Help Drive Your Hiring...">
+							
+								<p> 6 Ways Our New Job Confidence Tool Can Help Drive Your Hiring... </p>
+							</a>
+							
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="blog-item">
+							<a href="#">
+								<img src="https://www.michaelpage.com.my/sites/michaelpage.com.my/files/styles/image_347x280/public/three%20keys%20to%20accelerating%20your%20high%20potentials_BL.jpg?itok=LsCV9wDv" alt="Three keys to accelerating your high potentials:  An interview..." title="Three keys to accelerating your high potentials:  An interview...">
+							
+								<p> Three keys to accelerating your high potentials:  An interview... </p>
+							</a>
+							
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="blog-item">
+							<a href="#">
+								<img src="https://www.michaelpage.com.my/sites/michaelpage.com.my/files/styles/image_347x280/public/Reexaming_the_links_among_career_leadership_BL.jpg?itok=wCS2F-z0" alt="Life and business lessons I've learnt after 20 years of work: An..." title="Life and business lessons I've learnt after 20 years of work: An...">
+							
+								<p> Life and business lessons I've learnt after 20 years of work: An... </p>
+							</a>
+							
+						</div>
+					</div>
+				</div> -->
+
+			</div>
+		</section>
+
 		
 
 		<!-- jQuery -->
