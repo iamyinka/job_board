@@ -255,7 +255,7 @@ section:not(.categories) {
 
 /*====== Featured Jobs =======*/
 
-section.featured-jobs {
+section.featured-jobs, section.call-to-action {
   background: #fff !important;
 }
 
@@ -299,6 +299,38 @@ section.featured-jobs .MultiCarousel .leftLst.over, section.featured-jobs .Multi
   padding: 2em 1em;
 }
 
+/*====== Call To Action Area =======*/
+
+.call-to-action {
+  text-align: center;
+}
+
+
+.call-to-action-items i.fa {
+  font-size: 3em;
+  background-color: rgba(171, 154, 154, .57);
+  color: #fff;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  border-radius: 100%;
+  margin-bottom: .5em;
+  transition: all .6s;
+}
+
+.call-to-action-items:hover i.fa {
+  color: rgb(171, 154, 154);
+  background-color: #fff;
+  border: 1px solid rgb(171, 154, 154);
+}
+
+.call-to-action-items > a {
+  text-decoration: none;
+}
+
+.call-to-action-items > a p {
+  color: #000;
+}
 
 /*====== Media Queries =======*/
 
@@ -384,6 +416,10 @@ section.featured-jobs .MultiCarousel .leftLst.over, section.featured-jobs .Multi
 
   .blog-item img {
     width: 100%;
+  }
+
+  .call-to-action-items {
+    margin-bottom: 3em;
   }
 }
 
